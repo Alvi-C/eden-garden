@@ -212,7 +212,7 @@ nav > ul > li > a {
 .subscribe {
   height: 350px;
   border-radius: 8px;
-  background: url('/img/rectangle-9.png');
+  background: url('./img/rectangle-9.png');
   background-size: cover;
   margin: 0px 200px;
   display: flex;
