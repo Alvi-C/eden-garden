@@ -112,6 +112,64 @@ nav > ul > li > a {
   line-height: 30px;
 }
 
+/* Featured flowers */
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 200px;
+}
+
+.image-box-title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.image-box-1 {
+  width: 280px;
+  height: 350px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+  background: rgba(167, 33, 98, 0.15);
+  position: relative;
+}
+.image-box-1 > img {
+  width: 180px;
+  position: absolute;
+  top: 102px;
+  left: 50px;
+}
+
+.image-box-2 {
+  width: 280px;
+  height: 350px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+  background-color: rgba(5, 151, 160, 0.15);
+  position: relative;
+}
+.image-box-2 > img {
+  width: 240px;
+  position: absolute;
+  top: 102px;
+  left: 30px;
+}
+
+.image-box-3 {
+  width: 280px;
+  height: 350px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+  background: rgba(71, 125, 17, 0.15);
+  position: relative;
+}
+.image-box-3 > img {
+  width: 180px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+
 /* hot deals style */
 .hot-deals-bg {
   background-color: #faeff1;
